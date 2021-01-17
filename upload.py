@@ -8,10 +8,9 @@ for filenames in os.walk('songs'):
     for song in filenames[2]:
         time = MP3('songs/'+song).info.length
         data["songs"].append({
-            "link" :  "https://saranmahadev.tech/music/songs/"+song,
+            "link" :  "http://saranmahadev.tech/music/songs/"+song,
             "song" : song.split('.')[0],
-            "time" : str(round(time/60,2)),
-            "image": "https://saranmahadev.tech/music/image.jpg"
+            "time" : str(round(time/60,2))
         })      
 
 with open('data.json','w') as outfile:
