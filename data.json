@@ -1,4 +1,8 @@
 {
-    "song" : "song.mp3",
-    "link": "https://saranmahadev.tech/music/song.mp3"
+    "songs": [
+        {
+            "song": "song.mp3",
+            "link": "https://saranmahadev.tech/music/song.mp3"
+        }
+    ]
 }
